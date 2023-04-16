@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Taller 2</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container-fluid" style="background-color: #24a2b8; height: 40px;">
+            <img src="https://images.freeimages.com/fic/images/icons/1253/flurry_extras/256/tv.png" style="height: 30px; display: inline-block; margin-top: -7px; margin-left: -10px;"/>
+            <h5 style="line-height: 40px; display: inline-block;">TV Series</h5>
+        </div>
+        <div class="container-fluid" style="padding-top: 20px;">
+            <div class="row">
+                <div class="col-4">
+                    <table class="table table-hover" style="width: 440px;">
+                        <thead>
+                            <tr>
+                                <th style="width: 50px;">#</th>
+                                <th style="width: 230px;">Name</th>
+                                <th style="width: 110px;">Channel</th>
+                                <th>Seasons</th>
+                            </tr>
+                        </thead>
+                        <tbody id="series" style="background-color: #f2f2f2;">
+                        </tbody>
+                    </table>
+                    <div id="avgseasons" style="padding-left: 15px;"></div>
+                </div>
+                <div class="col" id="infocard"></div>
+            </div>
+        </div>
+        <script type="module" src="./scripts/serie.js"></script>
+        <script type="module" src="./scripts/data.js"></script>
+        <script type="module" src="./scripts/main.js"></script>
+    </body>
+</html>
